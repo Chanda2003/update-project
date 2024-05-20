@@ -1,0 +1,89 @@
+
+
+.link{
+    text-decoration: none;
+    font-size: 20px; 
+    color: #0a0a0a;
+    font-weight: bold;
+} 
+
+
+/* Navbar container styles */
+.navbar-container {
+ border: 4px solid rgb(234, 155, 7) !important;    
+}
+
+/* Navbar links styles */
+.navbar-link, .dropdown-link {
+    color: #007bff;
+    font-size: 16px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Navbar links hover effect */
+.navbar-link:hover, .dropdown-link:hover {
+    color: #f7db07;
+}
+
+/* Cart icon styles */
+.cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Dropdown button styles */
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Item photo styles */
+.item-photo {
+    height: 90px;
+    width: 90px;
+}
+
+/* Buy Now button styles */
+.buy-now-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-now-button:hover {
+    background-color: #218838;
+}
+
+/* Delete icon styles */
+.delete-icon {
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Close button styles */
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.navbar-link{
+    color: white;
+}
+
+

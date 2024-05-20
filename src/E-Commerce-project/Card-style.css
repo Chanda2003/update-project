@@ -1,0 +1,35 @@
+
+
+ .Card {
+    display: inline-flex !important;
+    margin-left: 68px !important;
+    height: 350px !important;
+    margin-top: 30px !important;
+    box-shadow: -1px 0px 20px hsl(225, 4%, 80%);
+    border: 1px solid rgb(9, 240, 40) !important;
+    transition: transform 0.3s; /* Add transition for hover effect */
+    border-radius: 30px !important;
+}
+
+.Image {
+    height: 150px;
+    width: 200px !important;
+    margin-left: 12%;
+}
+
+.Card:hover {
+    transform: scale(0.9); /* Correct property name for scaling */
+}
+
+@media (max-width: 768px) {
+    .Card {
+        margin-left: 0 !important;
+        margin-right: auto !important;
+        width: 80%; /* Adjust card width */
+    }
+
+    .Image {
+        width: 100%; /* Make image width 100% of parent */
+        margin-left: 04; /* Remove left margin */
+    }
+}

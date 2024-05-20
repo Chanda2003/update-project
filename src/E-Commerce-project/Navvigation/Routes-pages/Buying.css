@@ -1,0 +1,120 @@
+/* .input{
+    border: 40px;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.button{
+    margin-left: 40%;
+    box-shadow: 2px 2px 2px 2px;
+    background-color: rgb(177, 237, 237);
+    color: black;
+
+} */
+
+/* Container Styles */
+.buying-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: url('https://wallpapersmug.com/download/1920x1080/74b909/colorful-forms-abstract-4k.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* Card Styles */
+.buying-card {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-color: rgb(125, 121, 230); */
+    background-color: #aad7ee;
+
+}
+
+/* Form Styles */
+.buying-form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #aad7ee; Light background color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Input Styles */
+.form-input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Payment Options Styles */
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* Payment Option Styles */
+.payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+/* Button Styles */
+.submit-button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Title Styles */
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Body{
+    background-color: #aad7ee;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popup button {
+    margin-top: 10px;
+}
+

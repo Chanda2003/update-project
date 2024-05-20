@@ -1,0 +1,85 @@
+/* Login.module.css */
+
+/* Style the login form container */
+.loginContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Style the input fields and buttons */
+.loginContainer input[type="text"],
+.loginContainer input[type="password"],
+.loginContainer button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.loginContainer button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.loginContainer button:hover {
+  opacity: 0.8;
+}
+
+/* Center the form on the page */
+.loginContainer .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Style the avatar image */
+.loginContainer .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* Style the container for login and cancel button */
+.loginContainer .container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.loginContainer .cancelbtn::after,
+.loginContainer .psw::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change cancel button background color on hover */
+.loginContainer .cancelbtn:hover {
+  background-color: #ff6961;
+}
+
+/* Change cancel button background color on hover */
+.loginContainer .psw a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .loginContainer {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+  

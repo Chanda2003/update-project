@@ -1,0 +1,55 @@
+
+/* 
+.but{
+   padding: 10px;
+   margin: 40px;
+   box-shadow:-1px 1px 8px 4px hwb(0 60% 11%);;
+   border-radius: 15px;
+   color: black;
+   background-color: rgb(132, 134, 240);
+}
+.but:hover{
+  scale: 1.4;
+   background-color: rgb(248, 241, 241);
+   color: rgb(6, 6, 6);
+   box-shadow:-1px 1px 8px 4px hwb(0 24% 75%);;
+} */
+
+
+/* Default button styles */
+.but {
+   padding: 10px;
+   margin: 40px;
+   /* box-shadow: -1px 1px 8px 4px hwb(0 60% 11%); */
+   border-radius: 15px;
+   color: black;
+   background-color: rgb(244, 244, 249);
+   transition: transform 0.2s, background-color 0.2s, color 0.2s, box-shadow 0.2s; /* Adding transitions for smooth effects */
+}
+
+/* Hover effect */
+.but:hover {
+   transform: scale(1.1); /* Increasing scale to 1.1 */
+   background-color: rgb(14, 13, 13);
+   color: rgb(248, 246, 246);
+   /* box-shadow: -1px 1px 8px 4px hwb(0 24% 75%); */
+}
+
+/* Responsive styles for different screen sizes */
+@media (max-width: 768px) {
+   /* Adjusting button style for medium-sized screens (tablets, small laptops) */
+   .but {
+       padding: 8px; /* Smaller padding */
+       margin: 20px; /* Smaller margin */
+       font-size: 14px; /* Smaller font size */
+   }
+}
+
+@media (max-width: 576px) {
+   /* Adjusting button style for small screens (mobile phones) */
+   .but {
+       padding: 6px; /* Smaller padding */
+       margin: 10px; /* Smaller margin */
+       font-size: 12px; /* Smaller font size */
+   }
+}
